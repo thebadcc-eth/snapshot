@@ -4,20 +4,21 @@
     "domain": "https://vote.barbarians.eth/#/",
     "symbol": "🪓",
     "about": "",
-    "avatar": "",
     "filters": {
         "defaultTab": "all"
     },
     "network": "1",
     "plugins": {
     },
-    "strategy": {
-        "name": "whitelist",
-        "params": {
-            "symbol": "🪓",
-            "addresses": [
-                "0xD87Ed7bCC67bC3C8a7F275612BeE956490eC2F6A"
-            ]
+    "strategies": [
+        {
+            "name": "whitelist",
+            "params": {
+                "symbol": "🪓",
+                "addresses": {
+                    "0xD87Ed7bCC67bC3C8a7F275612BeE956490eC2F6A": 1
+                }
+            }
         }
-    }
+    ]
 }
