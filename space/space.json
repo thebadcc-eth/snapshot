@@ -4,7 +4,7 @@
     "about": "We invest in communities building preposterous ideas.",
     "domain": "",
     "avatar": "https://cloudflare-ipfs.com/ipfs/QmYzWQoPXNrgjRZADBgRRJLAFG6acWmdJ8qEcDW8hcVNgG",
-    "symbol": "🪓",
+    "symbol": "$RAGE",
     "filters": {
         "defaultTab": "all"
     },
@@ -15,7 +15,7 @@
         {
             "name": "whitelist",
             "params": {
-                "symbol": "🪓",
+                "symbol": "$RAGE",
                 "addresses": {
                     "0xD87Ed7bCC67bC3C8a7F275612BeE956490eC2F6A": 1
                 }
