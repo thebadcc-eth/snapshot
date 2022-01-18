@@ -12,6 +12,7 @@
     "network": "1",
     "plugins": {
     },
+    "private":true,
     "strategies": [
         {
             "name": "erc20-balance-of",
