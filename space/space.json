@@ -6,6 +6,7 @@
     "avatar": "https://cloudflare-ipfs.com/ipfs/QmYzWQoPXNrgjRZADBgRRJLAFG6acWmdJ8qEcDW8hcVNgG",
     "symbol": "$RAGE",
     "filters": {
+        "minScore": 10000,
         "defaultTab": "all"
     },
     "network": "1",
@@ -13,12 +14,11 @@
     },
     "strategies": [
         {
-            "name": "whitelist",
+            "name": "erc20-balance-of",
             "params": {
                 "symbol": "$RAGE",
-                "addresses": {
-                    "0xD87Ed7bCC67bC3C8a7F275612BeE956490eC2F6A": 1
-                }
+                "address": "0xFAA258C20511b4922Ad4319f602A02511632a3B6",
+                "decimals": 18
             }
         }
     ]
