@@ -1,9 +1,9 @@
 {
-    "name": "Barbarian Finance",
+    "name": "Enter Name",
     "skin": "light",
-    "about": "We invest in communities building preposterous ideas.",
+    "about": "Enter Description",
     "domain": "",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/QmYzWQoPXNrgjRZADBgRRJLAFG6acWmdJ8qEcDW8hcVNgG",
+    "avatar": "Enter IPFS",
     "symbol": "$RAGE",
     "filters": {
         "minScore": 10000,
@@ -17,8 +17,8 @@
         {
             "name": "erc20-balance-of",
             "params": {
-                "symbol": "$RAGE",
-                "address": "0xFAA258C20511b4922Ad4319f602A02511632a3B6",
+                "symbol": "SYMBL",
+                "address": "0x0000000000000000000000000000000000000000",
                 "decimals": 18
             }
         }
